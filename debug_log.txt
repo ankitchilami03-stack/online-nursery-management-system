@@ -1,0 +1,15 @@
+Array
+(
+    [orderid] => 178
+    [placeorder] => PLACE ORDER
+    [flatbldgnumber] => 522
+    [streename] => Hebbal
+    [area] => Jain Galli
+    [zipcode] => 591221
+    [landmark] => hJain
+    [phone] => 8867363197
+    [email] => ankitchilami268@gmail.com
+    [quantity] => 100
+    [paymode] => Cash on Delivery
+    [razorpay_order_id] => 
+)

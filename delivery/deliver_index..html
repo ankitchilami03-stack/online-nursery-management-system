@@ -1,0 +1,18 @@
+<?php
+session_start();
+include('includes/config.php');
+
+if (!isset($_SESSION['email'])) {
+    header("Location: ../login.php");
+    exit();
+}
+
+$email = $_SESSION['email'];
+$firstname = $_SESSION['firstname'];
+$lastname = $_SESSION['lastname'];
+$deliveryId = $_SESSION['deliveryboy_id'];
+?>
+<?php
+echo "Delivery Boy First Name: " . htmlspecialchars($firstname);
+?>
+<h1>welcome</h1>
